@@ -1,0 +1,9 @@
+{
+  "name" : "ros1-fed",
+  "rootfs-size": "64GB",
+  "base" : "fedora-base.json",
+  "overlay" : "overlay",
+  "host-init" : "host-init.sh",
+  "guest-init" : "guest-init.sh",
+  "jobs" : []
+}
